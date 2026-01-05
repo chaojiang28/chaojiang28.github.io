@@ -233,18 +233,37 @@
 				<!-- 下方添加其他链接地址-->
 			</div>
 		</div>
+            <style>
+    /* 统一管理样式，避免内联样式冗余 */
+    .header {
+        text-align: center; /* 核心：让内部链接水平居中 */
+        padding: 15px 0;    /* 上下内边距，让页眉更美观 */
+        background-color: #333; /* 增加深色背景，保证白色文字可见 */
+        width: 100%;        /* 页眉占满页面宽度 */
+    }
+    .header a {
+        color: #ffffff;     /* 统一设置链接文字颜色 */
+        text-decoration: none; /* 去掉默认下划线 */
+        margin: 0 10px;     /* 链接之间增加间距，避免挤在一起 */
+        transition: color 0.2s; /* 鼠标悬浮过渡效果，更丝滑 */
+    }
+    .header a:hover {
+        color: #cccccc;     /* 鼠标悬浮时变浅，提升交互体验 */
+    }
+</style>
 
-			<div class="header" {text-align: center}> 
-				                      <a href="https://github.com" style="color:#ffffff;" target="_blank" rel="nofollow">GitHub @ </a>
-                                      <a href="https://www.zzut.edu.cn/index/xxxt.htm" style="color:#ffffff;" target="_blank" rel="nofollow"> 青果</a>
-                                      <a href="https://jwgl.zzut.edu.cn/zzgcjw/cas/login.action" style="color:#ffffff;" target="_blank" rel="nofollow">旧版 </a>
-                                      <a href="https://zzut.chinamde.cn" style="color:#ffffff;" target="_blank" rel="nofollow"> 郑工继教 </a>
-                                      <a href="https://hnzj.ghlearning.com" style="color:#ffffff;" target="_blank" rel="nofollow"> 河南专技 </a>
-                                      <a href="https://www.smartedu.cn" style="color:#ffffff;" target="_blank" rel="nofollow"> 国家智慧教育® </a>
-                                      <a href="https://email.163.com" style="color:#ffffff;" target="_blank" rel="nofollow">163 </a>
-                                      <a href="https://wx.qq.com" style="color:#ffffff;" target="_blank" rel="nofollow"> 微信 </a>
-		                              <a href="https://chaojiang28.github.io/1/" style="color:#ffffff;" target="_blank" rel="nofollow"> 1 </a>
-			</div>
+<div class="header">
+    <a href="https://github.com" target="_blank" rel="nofollow">GitHub @</a>
+    <a href="https://www.zzut.edu.cn/index/xxxt.htm" target="_blank" rel="nofollow">青果</a>
+    <a href="https://jwgl.zzut.edu.cn/zzgcjw/cas/login.action" target="_blank" rel="nofollow">旧版</a>
+    <a href="https://zzut.chinamde.cn" target="_blank" rel="nofollow">郑工继教</a>
+    <a href="https://hnzj.ghlearning.com" target="_blank" rel="nofollow">河南专技</a>
+    <a href="https://www.smartedu.cn" target="_blank" rel="nofollow">国家智慧教育®</a>
+    <a href="https://email.163.com" target="_blank" rel="nofollow">163</a>
+    <a href="https://wx.qq.com" target="_blank" rel="nofollow">微信</a>
+    <a href="https://chaojiang28.github.io/1/" target="_blank" rel="nofollow">1</a>
+</div>
+			
 			<!-- 底部版权end -->
 	</div>
 
